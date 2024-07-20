@@ -74,7 +74,6 @@ chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 
 lives = 6
-print(f'The solution is {chosen_word}.')
 
 display = ["_" for _ in range(word_length)]
 
